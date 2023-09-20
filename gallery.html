@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <img class="logo" src="images/myLogo.png" width="200"></img>
+        <ul class="nav-links">
+            <li><a id="home-link">HOME</a></li>
+            <li><a id="about-link" class="">ABOUT</a></li>
+            <li><a class="nav__link" href="gallery.html">GALLERY</a></li>
+            <li><a class="nav__link" href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="burger">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>   
+    </nav>
+    
+    <div class="filler"></div>
+    
+    <div id="grid-container">
+
+        
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3205.jpg">
+            <div class="overlay">
+                <div class="text">Symmetry</div>
+                <div class="date">2023</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3197.jpg">
+            <div class="overlay">
+                <div class="text">Camouflaged</div>
+                <div class="date">2022</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3222.jpg">
+            <div class="overlay">
+                <div class="text">Meow</div>
+                <div class="date">2017</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_2476.jpg">
+            <div class="overlay">
+                <div class="text">Greeny</div>
+                <div class="date">2022</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3218.jpg">
+            <div class="overlay">
+                <div class="text">Cloudy With A Chance Of Sky</div>
+                <div class="date">2022</div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3195.jpg">
+            <div class="overlay">
+                <div class="text">Bliss</div>
+                <div class="date">2019</div>
+            </div>
+        </div>
+        
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3198.jpg">
+            <div class="overlay">
+                <div class="text">Peek</div>
+                <div class="date">2022</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3199.jpg">
+            <div class="overlay">
+                <div class="text">Inferno</div>
+                <div class="date">2019</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3200.jpg">
+            <div class="overlay">
+                <div class="text">Glow</div>
+                <div class="date">2019</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3201.jpeg">
+            <div class="overlay">
+                <div class="text">Spicy</div>
+                <div class="date">2020</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <img class="artwork" src="images/IMG_3196.jpg">
+            <div class="overlay">
+                <div class="text">Breaking Dawn</div>
+                <div class="date">2021</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="film-overlay" class="gallery"></div>
+
+    <div id="preview-box" class="gallery">
+        <div id="exit"><i class="fa-solid fa-xmark"></i></div>
+        <div id="caption"></div>
+        <div id="prev" class="slide-prev"><i class="fas fa-angle-left"></i></div>
+        <div id="next" class="slide-next"><i class="fas fa-angle-right"></i></div>
+        <img id="cur-image" src="">
+    </div>
+
+    <div class="footer">
+        <h3>Let's talk</h3>
+        <ul class="socials">
+            <li><a target="_blank" href="https://github.com/Vasanth-ACSCE"><i class="fa-brands fa-github fa-2x"></i></a></li>
+        </ul>
+        <p><i id="pin" class="fa-solid fa-location-dot"></i>Bengaluru, Karnataka, India</p>
+        <p id="copy" class="copyright"><i class="fa-regular fa-copyright"></i>2023 by Vasanth. All rights reserved.</p>
+    </div>
+    <script src="src/navLinks.js"></script>
+    <script src="src/gallery.js"></script>
+    <script src="https://kit.fontawesome.com/c9be313216.js" crossorigin="anonymous"></script>
+</body>
+</html>
